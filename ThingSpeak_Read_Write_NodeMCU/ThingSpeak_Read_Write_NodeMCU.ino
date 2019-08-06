@@ -2,14 +2,14 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 
-const char ssid[] = "Android";   // your network SSID (name) 
-const char pass[] = "shri@1998";   // your network password
+const char ssid[] = "SSID";   // your network SSID (name) 
+const char pass[] = "PASS";   // your network password
 
 WiFiClient  client;
 
-unsigned long TSChannelID = 832256;//SECRET_CH_ID;
-const char * TSReadAPIKey = "TSK7GHPHIYD5B1UH";//SECRET_READ_APIKEY;
-String TSWriteAPIKey = "L1KS52PVM3GIYCCF";//SECRET_WRITE_APIKEY;
+unsigned long TSChannelID = 123456;//SECRET_CH_ID;
+const char * TSReadAPIKey = "ASDFGHJKLPOIUY";//SECRET_READ_APIKEY;
+String TSWriteAPIKey = "QWERTYUIOPLKJH";//SECRET_WRITE_APIKEY;
 unsigned int TSFieldNumber = 1; 
 
 void setup() {
